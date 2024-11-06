@@ -1,0 +1,23 @@
+Development:
+Programmer - Fozzie
+Graphics Designers - Akeno, Carpet
+
+Sounds:
+Music - Kevin Macleod https://incompetech.com/
+Other Sounds - https://sfxr.me/
+
+Images/Textures:
+Main Menu Background -  <a href='https://pngtree.com/freebackground/color-cartoon-supermarket-background-design_963363.html'>free background photos from pngtree.com/</a>
+
+Win Screen Background - <a href="https://www.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_38065051.htm">Image by Mateus Andre</a> on Freepik
+
+Shopping List Background - <a href="https://www.freepik.com/free-photo/white-crumpled-paper-texture-background_1189775.htm#query=crumpled%20paper&position=45&from_view=keyword&track=ais&uuid=14864d75-920d-444a-96df-6e8b30eadbc0">Image by aopsan</a> on Freepik
+
+Floor Texture - <a href="https://www.freepik.com/free-photo/marble-background_1246267.htm#page=2&query=floor%20texture&position=17&from_view=search&track=ais&uuid=1443196a-0fbb-40ff-a965-9bb69c437b57">Image by topntp26</a> on Freepik
+
+Wall Texture - <a href="https://www.freepik.com/free-photo/white-textured-brick-wall_11306880.htm#query=white%20brick%20texture&position=10&from_view=search&track=ais&uuid=71945597-fdcc-4031-b3ec-cd9ffa7c56c3">Image by rawpixel.com</a> on Freepik
+
+Fonts:
+Subway Black Font - https://www.ffonts.net/Subway-Black.font
+Technology Font - https://www.1001fonts.com/technology-font.html
+Shopping List Font - https://www.dafont.com/shopping-list.font
