@@ -13,7 +13,7 @@ public class MoveBetweenPoints : MonoBehaviour
     void Start()
     {
         startCoordinates = gameObject.transform.position;
-        endCoordinates = new Vector3(startCoordinates.x, startCoordinates.y + 1, startCoordinates.z);
+        endCoordinates = new Vector3(startCoordinates.x, startCoordinates.y + 0.5f, startCoordinates.z);
         currentTarget = endCoordinates; // Start at the end position
     }
 
