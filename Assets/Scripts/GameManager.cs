@@ -15,10 +15,12 @@ public class GameManager : MonoBehaviour
     public float endScore;
 
     public string sceneName;
+    private int levelIndex = 0;
 
     void Start()
     {
         sceneName = SceneManager.GetActiveScene().name;
+        levelIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Update()
@@ -27,6 +29,15 @@ public class GameManager : MonoBehaviour
         {
             endScore = stopwatch.currentTime; //Set "endScore" as the time on the stopwatch, referencing the script.
             CheckHighScore();
+            CompletedLevel();
+        }
+    }
+
+    void CompletedLevel()
+    {
+        if (levelIndex == PlayerPrefs.GetFloat("CompletedLevel", 0))
+        {
+            PlayerPrefs.SetFloat("CompletedLevel", levelIndex + 1);
         }
     }
 

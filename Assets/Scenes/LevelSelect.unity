@@ -1331,7 +1331,6 @@ GameObject:
   - component: {fileID: 954037969}
   - component: {fileID: 954037968}
   - component: {fileID: 954037967}
-  - component: {fileID: 954037970}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -1347,16 +1346,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954037965}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21.74058}
+  m_LocalScale: {x: 0.43194443, y: 0.43194443, z: 0.43194443}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2059623811}
-  m_Father: {fileID: 1285444461}
+  m_Father: {fileID: 1843961438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -157, y: 167}
+  m_AnchoredPosition: {x: 346.91644, y: 322.27582}
   m_SizeDelta: {x: 108.7498, y: 99.9989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954037967
@@ -1403,16 +1402,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 954037970}
+      - m_Target: {fileID: 1843961437}
         m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
         m_MethodName: Level
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &954037968
@@ -1453,19 +1452,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954037965}
   m_CullTransparentMesh: 1
---- !u!114 &954037970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954037965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
 --- !u!1 &1065406220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,10 +1738,6 @@ RectTransform:
   m_Children:
   - {fileID: 419374410}
   - {fileID: 737517073}
-  - {fileID: 1974323641}
-  - {fileID: 1338792538}
-  - {fileID: 2084258125}
-  - {fileID: 954037966}
   - {fileID: 249567122}
   m_Father: {fileID: 2110454921}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1776,7 +1758,6 @@ GameObject:
   - component: {fileID: 1338792541}
   - component: {fileID: 1338792540}
   - component: {fileID: 1338792539}
-  - component: {fileID: 1338792542}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -1792,16 +1773,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338792537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21.74058}
+  m_LocalScale: {x: 0.43194443, y: 0.43194443, z: 0.43194443}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 477379589}
-  m_Father: {fileID: 1285444461}
+  m_Father: {fileID: 1843961438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -398, y: 167}
+  m_AnchoredPosition: {x: 242.81781, y: 322.27582}
   m_SizeDelta: {x: 108.7498, y: 99.9989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1338792539
@@ -1848,16 +1829,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1338792542}
+      - m_Target: {fileID: 1843961437}
         m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
         m_MethodName: Level
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1338792540
@@ -1898,19 +1879,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338792537}
   m_CullTransparentMesh: 1
---- !u!114 &1338792542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338792537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
 --- !u!1 &1404752802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,7 +2351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  levels: {fileID: 0}
 --- !u!4 &1843961438
 Transform:
   m_ObjectHideFlags: 0
@@ -2392,12 +2360,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843961435}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8694968, y: -37.75904, z: -21.740582}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -968.95844, y: -570.50336, z: -50.331898}
+  m_LocalScale: {x: 2.3151128, y: 2.3151128, z: 2.3151128}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
+  m_Children:
+  - {fileID: 1974323641}
+  - {fileID: 1338792538}
+  - {fileID: 2084258125}
+  - {fileID: 954037966}
+  m_Father: {fileID: 2110454921}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1899866856
 GameObject:
@@ -2545,7 +2517,6 @@ GameObject:
   - component: {fileID: 1974323644}
   - component: {fileID: 1974323643}
   - component: {fileID: 1974323642}
-  - component: {fileID: 1974323645}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -2561,16 +2532,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974323640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21.74058}
+  m_LocalScale: {x: 0.43194443, y: 0.43194443, z: 0.43194443}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1404752803}
-  m_Father: {fileID: 1285444461}
+  m_Father: {fileID: 1843961438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -514, y: 167}
+  m_AnchoredPosition: {x: 192.71234, y: 322.27582}
   m_SizeDelta: {x: 108.7498, y: 99.9989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974323642
@@ -2617,16 +2588,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1974323645}
+      - m_Target: {fileID: 1843961437}
         m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
         m_MethodName: Level
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 1
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1843961436}
@@ -2679,19 +2650,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974323640}
   m_CullTransparentMesh: 1
---- !u!114 &1974323645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974323640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
 --- !u!1 &2059623810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,7 +2796,6 @@ GameObject:
   - component: {fileID: 2084258128}
   - component: {fileID: 2084258127}
   - component: {fileID: 2084258126}
-  - component: {fileID: 2084258129}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -2854,16 +2811,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084258124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21.74058}
+  m_LocalScale: {x: 0.43194443, y: 0.43194443, z: 0.43194443}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1899866857}
-  m_Father: {fileID: 1285444461}
+  m_Father: {fileID: 1843961438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277, y: 167}
+  m_AnchoredPosition: {x: 295.08307, y: 322.27582}
   m_SizeDelta: {x: 108.7498, y: 99.9989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084258126
@@ -2910,16 +2867,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2084258129}
+      - m_Target: {fileID: 1843961437}
         m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
         m_MethodName: Level
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2084258127
@@ -2960,19 +2917,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084258124}
   m_CullTransparentMesh: 1
---- !u!114 &2084258129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084258124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
 --- !u!1 &2110454917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3069,6 +3013,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1285444461}
+  - {fileID: 1843961438}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3088,12 +3033,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level 1
+  levels: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1843961438}
   - {fileID: 1632658674}
   - {fileID: 871453136}
   - {fileID: 1624371836}
