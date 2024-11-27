@@ -4,45 +4,64 @@ using UnityEngine;
 
 public class Audios : MonoBehaviour
 {
+    public static Audios Instance;
+
     public AudioSource click;
     public AudioSource trolley;
     public AudioSource hooray;
     public AudioSource collect;
     public AudioSource iceFlow;
     public AudioSource careFree;
-
-    public void ClickPlay()
+    private void Awake()
     {
-        click.Play();
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    public static void ClickPlay()
+    {
+        Instance.click.Play();
     }
 
-    public void TrolleyPlay()
+    public static void TrolleyPlay()
     {
-        trolley.Play();
+        Instance.trolley.Play();
     }
 
-    public void TrolleyStop()
+    public static void TrolleyStop()
     {
-        trolley.Stop();
+        Instance.trolley.Stop();
     }
 
-    public void HoorayPlay()
+    public static void HoorayPlay()
     {
-        hooray.Play();
+        Instance.hooray.Play();
     }
 
-    public void CollectPlay()
+    public static void CollectPlay()
     {
-        collect.Play();
+        Instance.collect.Play();
     }
 
-    public void IceFlowPlay()
+    public static void IceFlowPlay()
     {
-        iceFlow.Play();
+        if (Instance.iceFlow != null && !Instance.iceFlow.isPlaying)
+        {
+            Instance.iceFlow.Play();
+        }
     }
 
-    public void CareFreePlay()
+    public static void CareFreePlay()
     {
-        careFree.Play();
+        if (Instance.careFree != null && !Instance.careFree.isPlaying)
+        {
+            Instance.careFree.Play();
+        }
     }
 }

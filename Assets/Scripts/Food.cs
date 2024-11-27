@@ -6,20 +6,20 @@ using UnityEngine.UI;
 public class Food : MonoBehaviour
 {
     public GameObject tickBox;
-    public GameObject nextItem;
+    //public GameObject nextItem;
 
     public ParticleSystem success;
-    public AudioSource collect;
 
     private void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            CollectItems.CollectItem(this.gameObject);
+            //Destroy(gameObject);
             success.Play();
-            collect.Play();
+            Audios.CollectPlay();
             tickBox.SetActive(true);
-            nextItem.SetActive(true);
+            //nextItem.SetActive(true);
         }
     }
 }

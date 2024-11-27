@@ -10,8 +10,6 @@ public class StopWatch : MonoBehaviour
     public TMP_Text currentTimeText;
     public TMP_Text endScore;
 
-    public GameObject lastItem;
-
     void Start()
     {
         currentTime = 0f; //sets time scale to 0
@@ -26,10 +24,10 @@ public class StopWatch : MonoBehaviour
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.ToString(@"mm\:ss\:fff");
         endScore.text = time.ToString(@"mm\:ss\:fff");
+    }
 
-        if (lastItem == null) //If last item destroyed, disable stop watch
-        {
-            stopwatchActive = false;
-        }
+    public void StopStopwatch()
+    {
+        stopwatchActive = false;
     }
 }

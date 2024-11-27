@@ -8,29 +8,26 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     [SerializeField] TextMeshProUGUI highScore;
 
     public StopWatch stopwatch;
-    public GameObject lastItem;
     public float endScore;
 
     public string sceneName;
     private int levelIndex = 0;
-
     void Start()
     {
         sceneName = SceneManager.GetActiveScene().name;
         levelIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
-    void Update()
+    public void Complete()
     {
-        if (lastItem == null)
-        {
-            endScore = stopwatch.currentTime; //Set "endScore" as the time on the stopwatch, referencing the script.
-            CheckHighScore();
-            CompletedLevel();
-        }
+        endScore = stopwatch.currentTime; //Set "endScore" as the time on the stopwatch, referencing the script.
+        CheckHighScore();
+        CompletedLevel();
     }
 
     void CompletedLevel()

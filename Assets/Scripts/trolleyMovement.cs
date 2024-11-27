@@ -5,11 +5,7 @@ public class trolleyMovement : MonoBehaviour
 {
     public float speed = 750;
     public float rotateSpeed = 300;
-
     private Rigidbody rb;
-    public AudioSource trolley;
-
-    public Audios audios; 
 
     void Start()
     {
@@ -41,12 +37,12 @@ public class trolleyMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W)) //plays audio when W is held
         {
-            audios.TrolleyPlay();
+            Audios.TrolleyPlay();
         }
 
         if (Input.GetKeyUp(KeyCode.W)) //stops audio when W is released
         {
-            audios.TrolleyStop();
+            Audios.TrolleyStop();
         }
 
         if (Input.GetKey(KeyCode.R)) //resets Players rotation

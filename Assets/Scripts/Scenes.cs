@@ -7,56 +7,42 @@ using UnityEngine.UI;
 
 public class Scenes : MonoBehaviour
 {
-    //public string sceneName;
     private int completedLevel;
-
+    
     private void Start()
     {
-        //sceneName = "Level " + gameObject.name;
-        if(SceneManager.GetActiveScene().name == "LevelSelect")
-        {
-            int i = 0;
-            foreach (Transform t in transform)
-            {
-                if (i <= PlayerPrefs.GetFloat("CompletedLevel", 0f))
-                {
-                    try
-                    {
-                        t.GetComponent<Button>().interactable = true;
-                    }
-                    catch
-                    {
-
-                    }   
-                }    
-                i++;
-            }
-        }
+        Audios.IceFlowPlay();
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene("Menu");
+        Audios.IceFlowPlay();
         Time.timeScale = 1f;
     }
 
     public void Settings()
     {
+        Audios.IceFlowPlay();
         SceneManager.LoadScene("Settings");
     }
 
     public void Credits()
     {
+        Audios.IceFlowPlay();
         SceneManager.LoadScene("Credits");
     }
 
     public void LevelSelect()
     {
-        SceneManager.LoadScene("LevelSelect"); 
+        Audios.IceFlowPlay();
+        SceneManager.LoadScene("SelectScreen"); 
     }
 
     public void Level(string levelName)
-    { 
+    {
+        Audios.CareFreePlay();
+        Audios.Instance.iceFlow.Stop();
         SceneManager.LoadScene(levelName);
     }
 
