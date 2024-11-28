@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class LevelSelect : MonoBehaviour
 {
-    private Transform targetParent;
+    public Transform targetParent;
     void Start()
     {
-        targetParent = transform.Find("Buttons");
+        //targetParent = transform.Find("Buttons");
         if (SceneManager.GetActiveScene().name == "LevelSelect")
         {
             int i = 0;

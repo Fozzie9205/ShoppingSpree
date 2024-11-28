@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2110454923}
         m_TargetAssemblyTypeName: SoundSettings, Assembly-CSharp
         m_MethodName: SetVolumeFromSlider
         m_Mode: 1
@@ -1802,6 +1802,8 @@ GameObject:
   - component: {fileID: 2110454920}
   - component: {fileID: 2110454919}
   - component: {fileID: 2110454918}
+  - component: {fileID: 2110454922}
+  - component: {fileID: 2110454923}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1892,6 +1894,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2110454922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110454917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b77900fe628a2c4cb8a4f457dc63bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuButton: {fileID: 737517074}
+  mainMenuButton2: {fileID: 0}
+  settingsButton: {fileID: 0}
+  creditsButton: {fileID: 468615314}
+  levelSelectButton: {fileID: 0}
+  quitButton: {fileID: 0}
+  resumeButton: {fileID: 0}
+  levelButtonsParent: {fileID: 0}
+--- !u!114 &2110454923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110454917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683a47685412a0648b44cd7385d84cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSlider: {fileID: 1689463723}
+  masterMixer: {fileID: 24100000, guid: 89b2475d8843a724abaf66037c4d1c2c, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

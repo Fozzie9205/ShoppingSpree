@@ -8,15 +8,24 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager Instance;
 
-    [SerializeField] TextMeshProUGUI highScore;
-
-    public StopWatch stopwatch;
     public float endScore;
 
     public string sceneName;
     private int levelIndex = 0;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         sceneName = SceneManager.GetActiveScene().name;
@@ -25,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     public void Complete()
     {
-        endScore = stopwatch.currentTime; //Set "endScore" as the time on the stopwatch, referencing the script.
+        endScore = StopWatch.Instance.currentTime; //Set "endScore" as the time on the stopwatch, referencing the script.
         CheckHighScore();
         CompletedLevel();
     }
@@ -50,6 +59,6 @@ public class GameManager : MonoBehaviour
     void UpdateHighScoreText()
     {
         TimeSpan time = TimeSpan.FromSeconds(PlayerPrefs.GetFloat("HighScore" + sceneName));  //Set the value of the saved highscore to "time"
-        highScore.text = time.ToString(@"mm\:ss\:fff"); //Display "time" as a string in a time format using minutes,seconds,milliseconds
+        StopWatch.Instance.highScore.text = time.ToString(@"mm\:ss\:fff"); //Display "time" as a string in a time format using minutes,seconds,milliseconds
     }
 }

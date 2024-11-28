@@ -4,14 +4,23 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
+    public static PauseMenu Instance;
+
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
 
-    public StopWatch stopwatch;
-
     void Start()
     {
-        stopwatch.stopwatchActive = true;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        StopWatch.Instance.stopwatchActive = true;
     }
 
     void Update()
@@ -31,7 +40,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        stopwatch.stopwatchActive = true;
+        StopWatch.Instance.stopwatchActive = true;
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -39,7 +48,7 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
-        stopwatch.stopwatchActive = false;
+        StopWatch.Instance.stopwatchActive = false;
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;

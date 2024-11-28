@@ -7,8 +7,19 @@ using UnityEngine.UI;
 
 public class Scenes : MonoBehaviour
 {
-    private int completedLevel;
-    
+    public static Scenes Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Start()
     {
         Audios.IceFlowPlay();
@@ -16,6 +27,7 @@ public class Scenes : MonoBehaviour
 
     public void MainMenu()
     {
+        Audios.Instance.careFree.Stop();
         SceneManager.LoadScene("Menu");
         Audios.IceFlowPlay();
         Time.timeScale = 1f;
@@ -36,7 +48,7 @@ public class Scenes : MonoBehaviour
     public void LevelSelect()
     {
         Audios.IceFlowPlay();
-        SceneManager.LoadScene("SelectScreen"); 
+        SceneManager.LoadScene("LevelSelect"); 
     }
 
     public void Level(string levelName)

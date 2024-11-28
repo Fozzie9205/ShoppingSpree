@@ -721,31 +721,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 737517075}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2110454925}
-        m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
-        m_MethodName: MainMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Audios, Assembly-CSharp
-        m_MethodName: ClickPlay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &737517075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,7 +1168,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2110454925}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
         m_MethodName: Level
         m_Mode: 5
@@ -1755,7 +1731,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2110454925}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
         m_MethodName: Level
         m_Mode: 5
@@ -2096,7 +2072,8 @@ GameObject:
   - component: {fileID: 2110454920}
   - component: {fileID: 2110454919}
   - component: {fileID: 2110454918}
-  - component: {fileID: 2110454925}
+  - component: {fileID: 2110454922}
+  - component: {fileID: 2110454923}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2187,7 +2164,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2110454925
+--- !u!114 &2110454922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2196,9 +2173,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 2110454917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b318d92efa1dd944193e27daf450a466, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b77900fe628a2c4cb8a4f457dc63bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuButton: {fileID: 737517074}
+  mainMenuButton2: {fileID: 0}
+  settingsButton: {fileID: 0}
+  creditsButton: {fileID: 0}
+  levelSelectButton: {fileID: 0}
+  quitButton: {fileID: 0}
+  resumeButton: {fileID: 0}
+  levelButtonsParent: {fileID: 73593345}
+--- !u!114 &2110454923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110454917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe0ad626b721e14a8e05b83492dc00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetParent: {fileID: 73593345}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

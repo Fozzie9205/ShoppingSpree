@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class CollectItems : MonoBehaviour
 {
-    public static GameManager gameManager;
-    public static StopWatch stopWatch;
+    public GameObject winScreen;
 
     private static GameObject parentObject;
     private static List<GameObject> foodItems;
-    private int currentActiveIndex = 0;
     void Start()
     {
         parentObject = GameObject.FindWithTag("FoodParent");
@@ -26,6 +24,13 @@ public class CollectItems : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (foodItems.Count <= 0)
+        {
+            winScreen.SetActive(true);
+        }
+    }
     public static void CollectItem(GameObject collectedItem)
     {
         if (foodItems.Contains(collectedItem))
@@ -42,12 +47,8 @@ public class CollectItems : MonoBehaviour
 
         if (foodItems.Count <= 0)
         {
-            gameManager.Complete();
-            stopWatch.StopStopwatch();
+            GameManager.Instance.Complete();
+            StopWatch.Instance.StopStopwatch();
         }
-    }
-    void Update()
-    {
-        
     }
 }
