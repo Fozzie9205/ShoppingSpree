@@ -24,15 +24,28 @@ Programmer - Fozzie
 
 Graphics Designers - Akeno, Carpet
 
-### <ins> Assets ###
-Shopping list texture:
-[aopsan. White crumpled paper texture for background. Freepik.](https://www.freepik.com/free-photo/white-crumpled-paper-texture-background_1189775.htm#query=crumpled%20paper&position=45&from_view=keyword&track=ais&uuid=14864d75-920d-444a-96df-6e8b30eadbc0) 
+### <ins> Assets and Licensing ###
+Image: [Shopping List Texture](https://www.freepik.com/free-photo/white-crumpled-paper-texture-background_1189775.htm#query=crumpled%20paper&position=45&from_view=keyword&track=ais&uuid=14864d75-920d-444a-96df-6e8b30eadbc0) from Freepik
 
-Floor texture:
-[topntp26. Marble background. Freepik.](https://www.freepik.com/free-photo/marble-background_1246267.htm#page=2&query=floor%20texture&position=17&from_view=search&track=ais&uuid=1443196a-0fbb-40ff-a965-9bb69c437b57)
+License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
 
-Wall texture:
-[rawpixel. White textured brick wall. Freepik.](https://www.freepik.com/free-photo/white-textured-brick-wall_11306880.htm#query=white%20brick%20texture&position=10&from_view=search&track=ais&uuid=71945597-fdcc-4031-b3ec-cd9ffa7c56c3)
+Attribution: Required
+
+___
+
+Image: [Floor Texture](https://www.freepik.com/free-photo/marble-background_1246267.htm#page=2&query=floor%20texture&position=17&from_view=search&track=ais&uuid=1443196a-0fbb-40ff-a965-9bb69c437b57) from Freepik
+
+License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
+
+Attribution: Required
+
+___
+
+Image: [Wall Texture](https://www.freepik.com/free-photo/white-textured-brick-wall_11306880.htm#query=white%20brick%20texture&position=10&from_view=search&track=ais&uuid=71945597-fdcc-4031-b3ec-cd9ffa7c56c3) from Freepik
+
+License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
+
+Attribution: Required
 
 ### <ins> Music ###
 [Kevin Macleod](https://incompetech.com/)
