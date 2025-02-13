@@ -53,11 +53,11 @@ Attribution: Required
 [SFXR](https://sfxr.me/) Sound Effects generated with SFXR
 
 ### <ins> Fonts ###
-[Khurasan. September 30th 2024. Fancake.](https://www.dafont.com/fancake.font?l[]=10&l[]=1)
+[Khurasan. September 30 2024. Fancake.](https://www.dafont.com/fancake.font?l[]=10&l[]=1)
 
-[coding4web. December 2nd 2020. Digital Font](https://www.fontspace.com/digital-font-f17797)
+[coding4web. December 2 2020. Digital Font](https://www.fontspace.com/digital-font-f17797)
 
-[Shopping List Font](https://www.dafont.com/shopping-list.font)
+[Daniel Midgley. October 18 2005. Daniel](https://www.dafont.com/daniel.font?l[]=10&l[]=1&text=Shopping+List)
 
 ### <ins> Version ###
 The version of Unity being used for this project is 2022.3.12f1
