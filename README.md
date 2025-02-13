@@ -1,13 +1,17 @@
 # <ins> ShoppingSpree #
 
 ### <ins> Description ###
-Slide around shops collecting items from your list! Can you beat your high score?
+Slide around shops collecting items from your list as fast as you can! Beat levels and get new high scores.
 
 ### <ins> Controls ###
 W - Move Forward
+
 S - Move Backward
+
 A - Turn Left
+
 D - Turn Right
+
 R - Reset Player Rotation
 
 ### <ins> License ###
