@@ -15,7 +15,7 @@ D - Turn Right
 R - Reset Player Rotation
 
 ### <ins> License ###
-I have chosen to use an MIT license. I chose this license because this game is not very large, and I am more than happy for people to use this software without restrictions, as long as it includes the copyright notice and license. I have not decided to go with another license because I feel that there is no need for my work to be constrained in any way. I love the idea of sharing my creativity and other people having the ability to do the same. 
+This project is licensed under the MIT License. I chose this license because I want others to freely use and modify the software without restrictions, as long as they retain the copyright notice and license. I believe in open creativity and the ability to share work without unnecessary constraints.
 The license can be viewed under the "License" file. For more information on the license and where to find it, please use this link:
 [MIT License](https://choosealicense.com/licenses/mit/)
 
@@ -48,9 +48,9 @@ License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal
 Attribution: Required
 
 ### <ins> Music ###
-[Kevin Macleod](https://incompetech.com/)
+[Kevin Macleod](https://incompetech.com/) Licensed under Creative Commons Attribution 4.0
 
-[SFXR](https://sfxr.me/)
+[SFXR](https://sfxr.me/) Sound Effects generated with SFXR
 
 ### <ins> Fonts ###
 [Subway Black Font](https://www.ffonts.net/Subway-Black.font)
