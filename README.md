@@ -19,10 +19,32 @@ I have chosen to use an MIT license. I chose this license because this game is n
 The license can be viewed under the "License" file. For more information on the license and where to find it, please use this link:
 [MIT License](https://choosealicense.com/licenses/mit/)
 
+### <ins> Team ###
+Programmer - Fozzie
+
+Graphics Designers - Akeno, Carpet
+
 ### <ins> Assets ###
+Shopping list texture:
+[aopsan. White crumpled paper texture for background. Freepik.](https://www.freepik.com/free-photo/white-crumpled-paper-texture-background_1189775.htm#query=crumpled%20paper&position=45&from_view=keyword&track=ais&uuid=14864d75-920d-444a-96df-6e8b30eadbc0) 
+
+Floor texture:
+[topntp26. Marble background. Freepik.](https://www.freepik.com/free-photo/marble-background_1246267.htm#page=2&query=floor%20texture&position=17&from_view=search&track=ais&uuid=1443196a-0fbb-40ff-a965-9bb69c437b57)
+
+Wall texture:
+[rawpixel. White textured brick wall. Freepik.](https://www.freepik.com/free-photo/white-textured-brick-wall_11306880.htm#query=white%20brick%20texture&position=10&from_view=search&track=ais&uuid=71945597-fdcc-4031-b3ec-cd9ffa7c56c3)
 
 ### <ins> Music ###
+[Kevin Macleod](https://incompetech.com/)
+
+[SFXR](https://sfxr.me/)
 
 ### <ins> Fonts ###
+[Subway Black Font](https://www.ffonts.net/Subway-Black.font)
+
+[Technology Font](https://www.1001fonts.com/technology-font.html)
+
+[Shopping List Font](https://www.dafont.com/shopping-list.font)
 
 ### <ins> Version ###
+The version of Unity being used for this project is 2022.3.12f1
