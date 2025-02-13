@@ -55,7 +55,7 @@ Attribution: Required
 ### <ins> Fonts ###
 [Khurasan. September 30th 2024. Fancake.](https://www.dafont.com/fancake.font?l[]=10&l[]=1)
 
-[Technology Font](https://www.1001fonts.com/technology-font.html)
+[coding4web. December 2nd 2020. Digital Font](https://www.fontspace.com/digital-font-f17797)
 
 [Shopping List Font](https://www.dafont.com/shopping-list.font)
 
