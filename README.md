@@ -53,7 +53,7 @@ Attribution: Required
 [SFXR](https://sfxr.me/) Sound Effects generated with SFXR
 
 ### <ins> Fonts ###
-[Subway Black Font](https://www.ffonts.net/Subway-Black.font)
+[Khurasan. September 30th 2024. Fancake.](https://www.dafont.com/fancake.font?l[]=10&l[]=1)
 
 [Technology Font](https://www.1001fonts.com/technology-font.html)
 
