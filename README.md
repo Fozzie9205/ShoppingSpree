@@ -25,7 +25,7 @@ Programmer - Fozzie
 Graphics Designers - Akeno, Carpet
 
 ### <ins> Assets and Licensing ###
-Image: [Main Menu Background]([https://www.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_17729710.htm#fromView=search&page=1&position=15&uuid=10ae822e-79b2-48e1-844d-bc963d93f74e&query=blue](https://www.freepik.com/free-vector/supermarket-interior-design_194667362.htm#fromView=search&page=1&position=1&uuid=64dd358e-a75d-4d51-8dc9-235d45a2b03e&query=grocery+store)) from Freepik
+Image: [Main Menu Background](https://www.freepik.com/free-vector/supermarket-interior-design_194667362.htm#fromView=search&page=1&position=1&uuid=64dd358e-a75d-4d51-8dc9-235d45a2b03e&query=grocery+store) from Freepik
 
 License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
 
