@@ -25,12 +25,26 @@ Programmer - Fozzie
 Graphics Designers - Akeno, Carpet
 
 ### <ins> Assets and Licensing ###
+Image: [Main Menu Background]([https://www.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_17729710.htm#fromView=search&page=1&position=15&uuid=10ae822e-79b2-48e1-844d-bc963d93f74e&query=blue](https://www.freepik.com/free-vector/supermarket-interior-design_194667362.htm#fromView=search&page=1&position=1&uuid=64dd358e-a75d-4d51-8dc9-235d45a2b03e&query=grocery+store)) from Freepik
+
+License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
+
+Attribution: Required
+___
+
 Image: [Shopping List Texture](https://www.freepik.com/free-photo/white-crumpled-paper-texture-background_1189775.htm#query=crumpled%20paper&position=45&from_view=keyword&track=ais&uuid=14864d75-920d-444a-96df-6e8b30eadbc0) from Freepik
 
 License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
 
 Attribution: Required
 
+___
+
+Image: [Win Screen Background](https://www.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_17729710.htm#fromView=search&page=1&position=15&uuid=10ae822e-79b2-48e1-844d-bc963d93f74e&query=blue) from Freepik
+
+License: Freepik Free License (see [Freepik Terms](https://www.freepik.com/legal/terms-of-use#nav-freepik-license))
+
+Attribution: Required
 ___
 
 Image: [Floor Texture](https://www.freepik.com/free-photo/marble-background_1246267.htm#page=2&query=floor%20texture&position=17&from_view=search&track=ais&uuid=1443196a-0fbb-40ff-a965-9bb69c437b57) from Freepik
