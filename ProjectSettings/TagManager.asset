@@ -8,6 +8,7 @@ TagManager:
   - FoodParent
   - PauseMenu
   - WinScreen
+  - ButtonParent
   layers:
   - Default
   - TransparentFX

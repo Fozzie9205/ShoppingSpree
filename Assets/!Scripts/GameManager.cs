@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         sceneName = SceneManager.GetActiveScene().name;
-        levelIndex = SceneManager.GetActiveScene().buildIndex;
+        levelIndex = SceneManager.GetActiveScene().buildIndex - 1;
     }
 
     public void Complete()
@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
 
     void CompletedLevel()
     {
-        if (levelIndex == PlayerPrefs.GetFloat("CompletedLevel", 0))
+        if (levelIndex == PlayerPrefs.GetFloat("CompletedLevel", 0f))
         {
             PlayerPrefs.SetFloat("CompletedLevel", levelIndex + 1);
         }

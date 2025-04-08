@@ -9,7 +9,7 @@ public class LevelSelect : MonoBehaviour
     public Transform targetParent;
     void Start()
     {
-        //targetParent = transform.Find("Buttons");
+        targetParent = GameObject.FindGameObjectWithTag("ButtonParent").transform;
         if (SceneManager.GetActiveScene().name == "LevelSelect")
         {
             int i = 0;
@@ -29,10 +29,5 @@ public class LevelSelect : MonoBehaviour
                 i++;
             }
         }
-    }
-
-    void Update()
-    {
-        
     }
 }
