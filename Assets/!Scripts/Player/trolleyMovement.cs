@@ -15,6 +15,7 @@ public class trolleyMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W)) //moving forward
         {
+            speed = 750;
             rb.AddForce(transform.right * speed * Time.deltaTime);
         }
 
@@ -22,7 +23,6 @@ public class trolleyMovement : MonoBehaviour
         {
             speed = 500;
             rb.AddForce(-transform.right * speed * Time.deltaTime);
-            speed = 750;
         }
 
         if (Input.GetKey(KeyCode.D)) //turn right
