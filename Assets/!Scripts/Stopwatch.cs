@@ -31,9 +31,9 @@ public class StopWatch : MonoBehaviour
 
     void Update()
     {
-        if (stopwatchActive == true) //If stop watch active, add time in format written
+        if (stopwatchActive) //If stop watch active, add time in format written
         {
-            currentTime = currentTime + Time.deltaTime;
+            currentTime += Time.deltaTime;
         }
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.ToString(@"mm\:ss\:fff");

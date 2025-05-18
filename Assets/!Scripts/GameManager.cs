@@ -26,12 +26,13 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Start()
-    {
-        sceneName = SceneManager.GetActiveScene().name;
-        levelIndex = SceneManager.GetActiveScene().buildIndex - 1;
-    }
 
+    private void Update()
+    {
+        // Keep in update or the score will be saved overall and not separately for each scene
+        sceneName = SceneManager.GetActiveScene().name;
+        levelIndex = SceneManager.GetActiveScene().buildIndex - 1; // This must be -1 so that the Menu can be first in the build index
+    }
     public void Complete()
     {
         endScore = StopWatch.Instance.currentTime; //Set "endScore" as the time on the stopwatch, referencing the script.
