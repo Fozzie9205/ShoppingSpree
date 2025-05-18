@@ -1,4 +1,4 @@
-# <ins> ShoppingSpree #
+# <ins> Shopping Spree #
 
 ### <ins> Description ###
 Slide around shops collecting items from your list as fast as you can! Beat levels and get new high scores.
